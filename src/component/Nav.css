@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+padding-top: 0%;
+display: flex;
+flex-wrap: 2px;
+justify-content: space-between;
+background-color:rgb(60, 9, 105);
+height: 50px;
+padding-left: 10px;
+padding-right: 18px;
+}
+
+.logo {
+padding-top:0px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+
+img{
+width: 50px;
+}
+
+span{
+color: white;
+}
+
+small{
+color: white;
+font-size: 10px;
+text-decoration: underline;
+}
+
+
+.navlink ul{
+gap: 15px;
+display: flex;
+padding-top: 15px;
+list-style: none;
+}
+
+.navlink ul li a{
+padding-left: 10px;
+text-decoration: none;
+color: white;
+}
