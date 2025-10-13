@@ -1,68 +1,85 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav{
-padding-top: 0%;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-background-color:rgb(60, 9, 105);
-height: 50px;
-padding-left: 10px;
-padding-right: 18px;
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(60, 9, 105);
+  padding: 10px 20px;
 }
 
 .logo {
-padding-top:0px;
-display: flex;
-flex-wrap: wrap;
-align-items: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-img{
-width: 50px;
+.logo1 {
+  width: 50px;
 }
 
-span{
-color: white;
+.logo-text span,
+.logo-text small {
+  color: white;
+  display: block;
 }
 
-small{
-color: white;
-font-size: 10px;
-text-decoration: underline;
+.logo-text small {
+  font-size: 10px;
+  text-decoration: underline;
 }
 
-
-.navlink ul{
-gap: 15px;
-display: flex;
-flex-wrap: wrap;
-padding-top: 15px;
-list-style: none;
+.country {
+  margin-left: 10px;
 }
 
-.navlink ul li a{
-padding-left: 10px;
-text-decoration: none;
-color: white;
+.country select {
+  padding: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(60, 9, 105);
 }
 
-
-.country{
-margin-left: 10px;
+/* Navigation links */
+.navlink ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  flex-wrap: wrap;
 }
 
-.country > select {
-margin-right: px;
-padding-left: 11px;
-width: 69px;
-border: none;
-color: white;
-background-color:rgb(60, 9, 105);
-} 
+.navlink ul li a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
 
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  nav.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
+  .navlink ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    padding: 10px 0;
+  }
 
+  .country {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .country select {
+    width: 100%;
+  }
+}
