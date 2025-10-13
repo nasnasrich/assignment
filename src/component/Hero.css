@@ -6,14 +6,49 @@ padding: 0;
 
 .Hero{
 flex-wrap: wrap;
-background-image:url("../assets/opr.jpg");
-background-size:cover;
-/* background-repeat: no-repeat; */
+background-image:url("../assets/og.jpg");
+background-size: 100%;
+background-repeat:no-repeat ;
+height: 80vh;
+text-align: center;
+padding-top: 60px;
+}
+
+.Heroone{
+width: 33%;
 height: 90vh;
+background-color: white;
+/* margin: 50px; */
+margin-left: 840px;
+border-radius: 8px;
+border-bottom: 2px solid black;
+
 }
 
 
-h1{
-    text-align: center;
-    color: black;
+.Hero h1{
+padding-top: 130px;
+text-align: center;
+color: black;
+font-size: 40px;
+padding-bottom: 15px;
+}
+
+
+.Hero small{
+font-size: 1rem;
+text-align: center;
+text-decoration: none;
+color: black;
+}
+
+
+.Hero h3{
+text-align: center;
+color: black;
+}
+
+.Hero h4{
+text-decoration: underline olivedrab;
+padding-top: 40px;
 }

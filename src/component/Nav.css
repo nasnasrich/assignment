@@ -6,7 +6,7 @@
 nav{
 padding-top: 0%;
 display: flex;
-flex-wrap: 2px;
+flex-wrap: wrap;
 justify-content: space-between;
 background-color:rgb(60, 9, 105);
 height: 50px;
@@ -39,6 +39,7 @@ text-decoration: underline;
 .navlink ul{
 gap: 15px;
 display: flex;
+flex-wrap: wrap;
 padding-top: 15px;
 list-style: none;
 }
@@ -48,3 +49,20 @@ padding-left: 10px;
 text-decoration: none;
 color: white;
 }
+
+
+.country{
+margin-left: 10px;
+}
+
+.country > select {
+margin-right: px;
+padding-left: 11px;
+width: 69px;
+border: none;
+color: white;
+background-color:rgb(60, 9, 105);
+} 
+
+
+
