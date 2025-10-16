@@ -1,0 +1,25 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+.Goals{
+margin-top: 40px;
+display: flex;
+}
+
+.Goa{
+width: 210%;
+}
+
+.Goalsone{
+display: flex;
+flex-wrap: wrap;
+background-color: aqua;
+}
+
+.Goalsone .items{
+margin: 30px;
+width: 180px;
+}

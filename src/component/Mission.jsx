@@ -9,7 +9,6 @@ function Mission() {
 
         <div className="mis">
             <img className='ef'src= {ef} />
-            
         </div>
 
         <div className="Missionone">

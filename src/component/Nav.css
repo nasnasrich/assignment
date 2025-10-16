@@ -83,3 +83,17 @@ nav.navbar {
     width: 100%;
   }
 }
+
+@media (max-width: 360px) {
+  .country select{
+    width: 35%;
+  }
+ .country option {
+  font-size: 8px;
+ }
+
+.country{
+  padding: 0px;
+  margin: 0px;
+  }
+}

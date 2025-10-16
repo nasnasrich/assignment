@@ -63,6 +63,54 @@ font-size: 12px;
 margin: 4px;
 }
 
+@media (max-width: 360px){
+
+.Missionone{
+width: 33%;
+}
+
+.Missionone h2{ 
+padding-top: 0px;
+}
+
+.Missionone h1{ 
+padding-top: 10px;
+font-size: 22px;
+padding-bottom: 10px;
+}
+.Missionone input{
+padding: auto;
+font-size: 10px;
+width: 90%;
+}
+
+.Missionone h3{
+padding-top: 20px;
+padding-bottom: 10px;
+}
+
+.Mission img{
+width: 300%;
+height: 95vh;
+margin: 0px;
+padding: 0px;
+margin-left: 5px;
+}
+
+.mis{
+width: 20%;
+padding: 0px;
+} 
+
+.Missionone{
+margin: 0px;
+}
+
+.Mission{
+gap: 160px;
+}
+}
+
 
 
 

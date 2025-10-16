@@ -2,6 +2,7 @@ import Hero from '../component/Hero'
 import Card from '../component/Card'
 import Mission from '../component/Mission'
 import Filter from '../component/Filter'
+import Goals from '../component/Goals'
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
       <Hero/>
       <Card/>
       <Mission/>
+      <Goals/>
       <Filter/>
     </div>
   )

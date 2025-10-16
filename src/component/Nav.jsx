@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <nav className="navbar">
+  <nav className="navbar">
       <div className="logo">
-        <img className="logo1" src={tnc} alt="Nature Conservancy Logo" />
+          <img className="logo1" src={tnc} alt="Nature Conservancy Logo" />
+
         <div className="logo-text">
           <span>Nature</span>
           <small>Conservancy</small>
         </div>
+
       </div>
 
       <div className="country">
@@ -29,7 +31,7 @@ const Nav = () => {
           <li><Link to="/login">Login</Link></li>
         </ul>
       </div>
-    </nav>
+  </nav>
   );
 };
 
